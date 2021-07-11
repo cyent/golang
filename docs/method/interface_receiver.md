@@ -29,7 +29,7 @@ type T struct {
     S string
 }
 
-func (t *T) M() {
+func (t T) M() {
     fmt.Println(t.S)
 }
 
